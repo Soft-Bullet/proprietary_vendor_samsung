@@ -125,3 +125,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5ultexx/proprietary/vendor/etc/B05QL_s5k5e3yx_module_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/B05QL_s5k5e3yx_module_info.xml \
     vendor/samsung/a5ultexx/proprietary/vendor/etc/F13QS_imx135_module_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/F13QS_imx135_module_info.xml
 
+# Dirac
+PRODUCT_COPY_FILES += \
+   vendor/samsung/a5ultexx/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
+   vendor/samsung/a5ultexx/proprietary/vendor/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDiracAPI_SHARED.so \
+   vendor/samsung/a5ultexx/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so
